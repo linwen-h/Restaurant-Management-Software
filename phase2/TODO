@@ -1,0 +1,11 @@
+Fix logging system format
+Block servers from ordering if a previous uncooked currentOrder would have taken all reserve
+allow cooks to see what currentOrder they got
+Bill system through the GUI (Separate and table)
+Getting the email format through the GUI
+Tag system - Murad gave up
+Queue for orders/blocking orders
+Indicate what ingredient is out of currentOrder when server enters currentOrder
+Fix statistics GUI -DONE
+Make sure cancelling/returning orders works
+Make server interface more intuitive

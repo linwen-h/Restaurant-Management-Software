@@ -1,0 +1,65 @@
+[
+  {
+    "type": "Server",
+    "users": [
+      {
+        "user": "1",
+        "pass": "d74ff0ee8da3b9806b18c877dbf29bbde5165bd8e4dad7a3a72501eeb82e8f1",
+        "configs": {
+        }
+      },
+      {
+        "user": "2",
+        "pass": "d74ff0ee8da3b9806b18c877dbf29bbde5165bd8e4dad7a3a72501eeb82e8f1",
+        "configs": {
+        }
+      },
+      {
+        "user": "3",
+        "pass": "d74ff0ee8da3b9806b18c877dbf29bbde5165bd8e4dad7a3a72501eeb82e8f1",
+        "configs": {
+        }
+      },
+      {
+        "user": "4",
+        "pass": "d74ff0ee8da3b9806b18c877dbf29bbde5165bd8e4dad7a3a72501eeb82e8f1",
+        "configs": {
+        }
+      },
+      {
+        "user": "5",
+        "pass": "d74ff0ee8da3b9806b18c877dbf29bbde5165bd8e4dad7a3a72501eeb82e8f1",
+        "configs": {
+        }
+      }
+    ]
+  },
+  {
+    "type": "Cook",
+    "users": [
+      {
+        "user": "Lin",
+        "pass": "d74ff0ee8da3b9806b18c877dbf29bbde5165bd8e4dad7a3a72501eeb82e8f1",
+        "configs": {
+        }
+      },
+      {
+        "user": "Jimmy",
+        "pass": "d74ff0ee8da3b9806b18c877dbf29bbde5165bd8e4dad7a3a72501eeb82e8f1",
+        "configs": {
+        }
+      }
+    ]
+  },
+  {
+    "type": "Manager",
+    "users": [
+      {
+        "user": "Murad",
+        "pass": "d74ff0ee8da3b9806b18c877dbf29bbde5165bd8e4dad7a3a72501eeb82e8f1",
+        "configs": {
+        }
+      }
+    ]
+  }
+]

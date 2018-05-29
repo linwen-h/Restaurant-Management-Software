@@ -1,0 +1,58 @@
+# Order for a table of 4
+ORDER|1000/1/5-1/Fish Burger/[]/[]
+ORDER|1001/1/5-2/Pork Burger/[BACON]/[]
+ORDER|1002/1/5-3/Pork Burger/[]/[ONION]
+ORDER|1003/1/5-4/Pork Burger/[BACON]/[LETTUCE]
+
+# Dispatch and cook 2 orders (because we only have 2 cooks by default)
+DISPATCH|1000/1
+DISPATCH|1001/2
+RECEIVE|1000/1
+RECEIVE|1001/2
+COOK|1000/1
+COOK|1001/2
+
+# Dispatch and cook other orders
+DISPATCH|1002/1
+DISPATCH|1003/2
+RECEIVE|1002/1
+RECEIVE|1003/2
+COOK|1002/1
+COOK|1003/2
+
+# Deliver orders at the same time
+DELIVER|1000/1
+DELIVER|1001/1
+DELIVER|1002/1
+DELIVER|1003/1
+
+# Gets table 5 seat 1
+GETBILL|5-1
+
+# Gets table 5 seat 2
+GETBILL|5-2
+
+# Gets bill for whole table, includes seats 1 and 2
+GETBILL|5
+
+# Clear table, mark it available for next customers
+CLEARTABLE|5/1
+
+# Order and cook for next customer
+ORDER|1004/1/5-1/Coffee/[]/[]
+DISPATCH|1004/1
+RECEIVE|1004/1
+COOK|1004/1
+DELIVER|1004/1
+
+# Get bill
+GETBILL|5
+
+# Clear Table
+CLEARTABLE|5/1
+
+# Receive shipment for 100 bread
+SHIPMENT|{BREAD:100}
+
+# Make sure inventory is updated correctly
+LOGINV|1

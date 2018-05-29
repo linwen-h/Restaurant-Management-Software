@@ -1,0 +1,9 @@
+restaurant {
+    name            = "Lindsey's Pizzeria"
+    num_tables      = 10
+    seats_per_table = 4
+    num_cooks       = 2
+    num_servers     = 2
+    num_managers    = 1
+    fix_console     = true
+}
